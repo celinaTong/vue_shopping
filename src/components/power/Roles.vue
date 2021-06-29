@@ -57,7 +57,7 @@
                       closable
                       @close="removeRoleById(scope.row, item3.id)"
                       type="warning"
-                      v-for="(item3, i3) in item2.children"
+                      v-for="item3 in item2.children"
                       :key="item3.id"
                     >
                       {{ item3.authName }}
